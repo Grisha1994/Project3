@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-image: radial-gradient(circle farthest-side at 50% 1%, rgb(200, 255, 243), black, rgb(0, 255, 247)); 
+    justify-content: center;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(29, 70, 77);
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 255, 234);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(125, 125, 174);
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.item-0{
+    background-image: url(../img/1.jpg);    
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik Distressed', cursive;
+    color: aliceblue;
+}
+
+div {
+    width: calc(50% - 20px); 
+    height: 200px; 
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(172, 251, 255);
+    box-shadow: 0 0 10px 1px rgb(251, 230, 230);
+    border-radius: 15px;
+    transition: 1s;
+}
+div:hover {
+    transform: scale(1.05);
+}
+
+
+.item-1 {
+    background-image: url(../img/aston_martin.jpeg);
+}
+
+.item-2 {
+    background-image: url(../img/chevrolet.webp);
+}
+
+.item-3 {
+    background-image: url(../img/corvette.jpg);
+}
+
+.item-4 {
+    background-image: url(../img/dodge.jpg);
+}
+
+.item-5 {
+    background-image: url(../img/ferrari.jpg);
+}
+
+.item-6 {
+    background-image: url(../img/impala.jpg);
+}
+
+.item-7 {
+    background-image: url(../img/mustang.jpg);
+}
+
+.item-8 {
+    background-image: url(../img/porsche.jpg);
+}
+
